@@ -7,7 +7,159 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+button {
+  color: #CC5500;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.therapist {
+  color:#CC5500;
+  padding-top: 10rem;
+  justify-content: center;
+}
+
+.pricing-h2{
+  padding-left: 150px;
+
+}
+
+h3 {
+  font-size: 4rem;
+  padding-top: 100px;
+}
+
+.pricing-h4 {
+  padding-left: 400px;
+}
+
+.mycontainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+ 
+  /* justify-content: space-between; */
+}
+
+
+.leftside {
+  background-color:#800020 ;
+flex-basis: 500px;
+}
+
+P{
+  padding-top: 20px;
+}
+
+.footcontainer {
+  background-color: #FFC99D;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-top: 30px;
+}
+
+.therapyboxcontainer {
+  background-color: #FFC99D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    gap: 30px;
+    color: white;
+}
+
+.serviceboxcontainer {
+  background-color: #FFC99D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    gap: 30px;
+    color: white;
+
+}
+
+.therapyboxcontainer img {
+  display: inline-block;
+ padding: 0 20px;
+ padding-bottom: 20px;
+ 
+}
+
+
+.leftside p {
+  color: white;
+}
+
+.list{
+  list-style-type: none;
+}
+.list li {
+  padding-bottom: 20px;
+}
+.firstplan {
+  display: flex; 
+   justify-content: space-evenly; 
+   max-width: 1000px;
+  /* flex-grow: 7; */
+  padding-top: 50px;
+}
+
+.firstcard {
+  border-radius: 10px;
+  /* display: flex; */
+    width: 30%;
+    min-height: 200px;
+    border: 5px solid  #EBF8FF;
+    padding: 15px;
+    align-items: baseline;
+    background-repeat: no-repeat;
+    background-color: #EBF8FF;
+    /* position: relative; */
+    color:black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.firstcard h4 {
+  padding-bottom: 10px;
+}
+
+
+.secondcard{
+  list-style-type: none;
+  border-radius: 10px;
+    /* display: flex; */
+    width: 30%;
+    min-height: 200px;
+    border: 5px solid #FDF7EE;
+    padding: 15px;
+    align-items: baseline;
+    background-repeat: no-repeat;
+    background-color: #FDF7EE; 
+    position: relative;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.thirdcard {
+  list-style-type: none;
+    border-radius: 10px;
+    width: 30%;
+    min-height: 200px;
+    border: 5px solid #FDF7EE;
+    padding: 15px;
+    align-items: baseline;
+    background-repeat: no-repeat;
+    background-color: #FDF7EE;
+    position: relative;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+
 }
