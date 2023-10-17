@@ -1,26 +1,36 @@
 import React from 'react'
+import hands from '../Image/hands.jpg'
 
 export default function About() {
   return (
     <div>
+      <h2 style={{}}>About Us</h2>
+      <img src={hands} className="d-block rounded float-end" alt="..." height="10" style={{height: "300px"}} />
+      <p>Welcome to ITherapy, where we believe in healing and growth through understanding, compassion, and guidance. Our mission is to support you on your journey to mental and emotional well-being, providing a safe space to explore your thoughts, feelings, and experiences.</p>
 
-      <h1> About Us</h1>
-      
-      <p>Tempor excepteur consequat eu nisi fugiat adipisicing. Nostrud elit veniam pariatur commodo. Consectetur qui nulla sunt dolore qui aliqua excepteur.</p>
-<p>Enim aliqua exercitation do est cupidatat nisi officia deserunt. Minim adipisicing consectetur nostrud proident duis dolore id aliqua tempor occaecat aliquip deserunt reprehenderit adipisicing. Nostrud in eiusmod dolor dolore eu labore magna labore nulla dolore esse. Qui in enim fugiat sint ex ipsum pariatur. Ea ipsum adipisicing ullamco elit laboris consectetur dolore amet quis proident consequat excepteur. Occaecat in veniam consequat reprehenderit sit aliquip veniam irure ea eiusmod nulla ipsum ullamco labore. Et ipsum irure deserunt labore.
+      <p>Our Approach
+        At ITherapy, we adopt a client-centered, strengths-based approach to therapy. We understand that every individual is unique, and we tailor our approach to meet your specific needs and circumstances. Our skilled and empathetic therapists work collaboratively with you to develop personalized treatment plans that align with your goals and values.</p>
 
-Ea excepteur ad voluptate mollit nulla sunt commodo ullamco tempor culpa aliquip Lorem. Aliquip laboris laboris consequat labore proident quis esse fugiat aliqua non. Ea reprehenderit occaecat ea consectetur magna mollit ad cupidatat ipsum amet cillum.
+      <p>Our Values
+        Empathy: We provide a caring and empathetic environment where you can express yourself openly without judgment.
 
-Pariatur excepteur dolor voluptate deserunt minim duis dolor minim in nulla deserunt tempor. Magna eiusmod tempor consectetur ut voluptate fugiat sunt tempor Lorem mollit est occaecat irure laborum. Consequat reprehenderit mollit id consectetur excepteur sint esse ullamco veniam eu adipisicing laborum fugiat.
+        Professionalism: Our team of licensed therapists adhere to the highest professional standards, ensuring your therapy experience is both effective and ethical.
 
-Esse eiusmod nostrud Lorem deserunt ex mollit. Minim labore sunt do consequat aliqua Lorem. Reprehenderit nulla velit adipisicing consectetur commodo adipisicing occaecat. Tempor cillum velit pariatur fugiat occaecat ex non enim et non adipisicing officia.
+        Confidentiality: Your privacy is of utmost importance to us. We maintain strict confidentiality and privacy practices to protect your information.</p>
 
-Excepteur elit adipisicing consectetur occaecat occaecat. Sint culpa duis labore ea eu proident ea pariatur. Ut nostrud eu ea cillum aliquip ut et velit nisi adipisicing nulla officia incididunt.
-      </p>
+      <p>What We Offer
+        Individual Therapy: Tailored one-on-one sessions to help you explore and address your unique concerns and challenges.
 
-      <p>
-        
-      </p>
+        Couples Counseling: Guidance and support for couples seeking to improve communication, resolve conflicts, and strengthen their relationship.
+
+        Family Therapy: A collaborative approach to address family dynamics and relationships, promoting understanding and harmony.
+
+        Group Therapy: A supportive environment where you can connect with others facing similar issues, sharing experiences and strategies for growth.</p>
+
+      Get Started
+      Embarking on a therapeutic journey takes courage, and we are here to support you every step of the way. Reach out to us to schedule an initial consultation and begin your path toward healing and positive change.
+
+      Let us help you rediscover your inner strength, find peace, and create a fulfilling life. Together, we can make a difference.
     </div>
   )
 }

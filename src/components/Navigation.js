@@ -7,17 +7,17 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function Navigation() {
   return (
     <div>
-      <Navbar bg="light" data-bs-theme="dark" >
+      <Navbar >
         <Container className='flex justify-content-between'>
-          <Navbar.Brand justify-content='flex-end' ><Link style={{ textDecoration: 'none' }} to="/">Company Name Here</Link></Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link><Link style={{ textDecoration: 'none' }} to="/">Home</Link></Nav.Link>
-            <Nav.Link><Link style={{ textDecoration: 'none' }} to="/about">About</Link></Nav.Link>
-            <Nav.Link><Link style={{ textDecoration: 'none' }} to="/services">Services</Link></Nav.Link>
-            <Nav.Link><Link style={{ textDecoration: 'none' }} to="/pricing">Pricing</Link></Nav.Link>
-            <Nav.Link><Link style={{ textDecoration: 'none' }} to="/contacts">Contacts</Link></Nav.Link>
-            <Nav.Link><Link style={{ textDecoration: 'none' }} to="/signup">Sign Up</Link></Nav.Link>
-            <Nav.Link><Link style={{ textDecoration: 'none' }} to="/login">Log In</Link></Nav.Link>
+          <Navbar.Brand justify-content='flex-end' ><Link style={{ textDecoration: 'none',color:"#800020"}} to="/">ITherapy</Link></Navbar.Brand>
+          <Nav className="me-auto" style={{color:"#800020"}}>
+            <Nav.Link><Link style={{ textDecoration: 'none',color:"#800020"  }} to="/">Home</Link></Nav.Link>
+            <Nav.Link><Link style={{ textDecoration: 'none',color:"#800020" }} to="/about">About</Link></Nav.Link>
+            <Nav.Link><Link style={{ textDecoration: 'none',color:"#800020" }} to="/services">Services</Link></Nav.Link>
+            <Nav.Link><Link style={{ textDecoration: 'none' ,color:"#800020"}} to="/pricing">Pricing</Link></Nav.Link>
+            <Nav.Link><Link style={{ textDecoration: 'none' ,color:"#800020"}} to="/contacts">Contacts</Link></Nav.Link>
+            <Nav.Link><Link style={{ textDecoration: 'none' ,color:"#800020"}} to="/signup">Sign Up</Link></Nav.Link>
+            <Nav.Link><Link style={{ textDecoration: 'none',color:"#800020" }} to="/login">Log In</Link></Nav.Link>
 
           </Nav>
         </Container>

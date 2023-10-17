@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 export default function TherapyBox({ title, subtitle, description, btntext, image, imgtext }) {
     return (
         <>
-            <div>
+            <div style={{color:"white"}}>
                 {/* <h1> {title} </h1>
                 <h3>{subtitle}</h3>
                 <p>{description}</p>
@@ -13,7 +13,7 @@ export default function TherapyBox({ title, subtitle, description, btntext, imag
 
             <div className='mycontainer'>
                 <div className='leftside'>
-                    <div>
+                    <div style={{paddingTop:"30px"}}>
                         <h1> {title} </h1>
                         <h3>{subtitle}</h3>
                         <p>{description}</p>

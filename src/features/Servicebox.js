@@ -4,18 +4,18 @@ import Button from 'react-bootstrap/Button';
 export default function ServiceBox({ title, subtitle, description, btntext, image, imgtext }) {
     return (
         <>
-            <div>
-                {/* <h1> {title} </h1>
+            {/* <div>
+                <h1> {title} </h1>
                 <h3>{subtitle}</h3>
                 <p>{description}</p>
-                <button>{btntext}</button> */}
-            </div>
+                <button>{btntext}</button>
+            </div> */}
 
             <div className='mycontainer'>
                 <div className='leftside'>
                     <div>
-                        <h1> {title} </h1>
-                        <h3>{subtitle}</h3>
+                        <h1 style={{ color: "white" }}> {title} </h1>
+                        <h3 style={{ color: "white" }}>{subtitle}</h3>
                         <p>{description}</p>
 
                         <br></br>
@@ -26,11 +26,9 @@ export default function ServiceBox({ title, subtitle, description, btntext, imag
                 <div className='serviceboxcontainer'>
                     {/* <h5>Magna fugiat est non fugiat laboris veniam ex do sint eu.</h5> */}
 
-                    <img width="300" height="300" src={image} alt={imgtext} />
+                    <img width="290" height="290" style={{ padding: "0 15px" }} src={image} alt={imgtext} />
 
                 </div>
-
-
             </div>
             <div>
 

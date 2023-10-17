@@ -63,21 +63,21 @@ export default function Home() {
           <Button type="button" style={{ backgroundColor: "#800020" }} variant="outline-light" >Contact</Button>{' '}
           {/* <Button variant="light">Start Questionnaire</Button>{' '} */}
         </div>
-        <div>
+        <div className='img-grid'>
           {/* <Image src={huggingheart} fluid />;  */}
-          <img src={yoga} className="rounded float-start rounded float-start" alt="..." height="300" />
-          <img src={field} class="rounded float-start" alt="..." height="150" />
-          <img src={womanlaughing2} class="rounded float-start" alt="..." height="150" />
+          <img id='yoga' src={yoga}  alt="..." height="500" />
+          <img id='field' src={field} alt="..." height="150" />
+          <img id='womanlaughing2' src={womanlaughing2} alt="..." height="150" />
         </div>
       </div>
       <div className='therapist'>
-        <h4>#1 Leading Therapist</h4>
+        <h4 style={{paddingLeft:"450px"}}>#1 Leading Therapist</h4>
       </div>
       <div className=''>
-        <h2> Amazing Tools To Help At Every Stage Of Your Process</h2>
+        <h2 style={{paddingLeft:"175px", paddingTop:"30px"}}> Amazing Tools To Help At Every Stage Of Your Process</h2>
         <p> </p>
       </div>
-      <div>
+      <div style={{paddingLeft:"170px", color:"white"}}>
         {data.map((ele) => {
           return (
             <>
